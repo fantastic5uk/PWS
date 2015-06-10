@@ -1,0 +1,33 @@
+.oddrows .row{
+	padding: 10px 0;
+}
+.oddrows .row:nth-child(2n){
+	background: #fbfbfb;
+}
+
+.errorSummary {
+    background: #FFE6E6;
+    color: #DB0707;
+    padding: 15px;
+    border: 1px solid;
+    font-style: italic;
+}
+
+.errorMessage {
+    margin-left: 15px;
+    font-size: 12px;
+    color: #DB0707;
+    display: block;
+    clear: both;
+}
+
+select{
+	padding: 5px 15px;
+}
+
+.logo:before {
+    display:block;
+    width:100px;
+    background:red;
+    height:100px;
+}
